@@ -10,10 +10,14 @@ h1, h2, h3, h4, h5, h6 {
 
 ul {
   margin: 0;
-}
+} 
 
 .bg-steel {
-  background-color: #5f788a;
+  background-color: rgba(132, 56, 165, 0.946) !important;
+}
+
+.navbar-brand {
+  color: white;
 }
 
 .site-header .navbar-nav .nav-link {
@@ -21,7 +25,7 @@ ul {
 }
 
 .site-header .navbar-nav .nav-link:hover {
-  color: #ffffff;
+  color: rgba(123, 199, 90, 0.946) ;
 }
 
 .site-header .navbar-nav .nav-link.active {
@@ -34,6 +38,8 @@ ul {
   border: 1px solid #dddddd;
   border-radius: 3px;
   margin-bottom: 20px;
+  display: flex;
+  
 }
 
 .article-title {
@@ -82,3 +88,5 @@ a.article-title:hover {
 .account-heading {
   font-size: 2.5rem;
 }
+
+

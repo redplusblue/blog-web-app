@@ -1,5 +1,10 @@
 {% extends "blog/base.html" %}
 {% load crispy_forms_tags %}
+
+{% block leftSidebar %}
+<!-- Empty block so that there is no left sidebar -->
+{% endblock %}
+
 {% block content %}
     <div class = "content-section">
         <form method="POST">
@@ -22,3 +27,7 @@
         </div>
     </div>
 {% endblock content %}
+
+{% block rightSidebar %}
+<!-- Empty block so that there is no right sidebar -->
+{% endblock %}
