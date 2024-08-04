@@ -1,4 +1,4 @@
-# [Update: Currently being restructured in branch:alpha]
+# [Update: This is now an archive]
 
 # sk.blog
 Source code for the blog section on my website.
